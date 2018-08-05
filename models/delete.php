@@ -2,8 +2,7 @@
 // Script deletes from server and database record
 require_once('../inc/dbConfig.php');
 
-$data = json_decode(file_get_contents("php://input"));
-
+//$data = json_decode(file_get_contents("php://input"));
 // get the file id from post
 //$file_id = $data->fileid;
 // parse from string to int | for some reason the data is returned as a string
