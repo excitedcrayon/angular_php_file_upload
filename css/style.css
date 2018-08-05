@@ -1,0 +1,6 @@
+input.ng-valid, select.ng-valid{
+    background-color: rgb(250,255,189) !important;
+}
+.form-text.text-muted span{
+  color: red !important;
+}
